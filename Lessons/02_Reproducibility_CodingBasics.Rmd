@@ -170,7 +170,6 @@ recipe1 <- function(x){
   mix <- x*2
   return(mix)
 }
-
 # Bake the recipe
 simplemeal <- recipe1(5)
 

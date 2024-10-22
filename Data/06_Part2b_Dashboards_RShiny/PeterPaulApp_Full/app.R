@@ -4,7 +4,13 @@ library(shinythemes)
 library(tidyverse);library(lubridate)
 
 #### Load data ----
-nutrient_data <- read_csv("Data/NTL-LTER_Lake_Nutrients_PeterPaul_Processed.csv")
+#nutrient_data <- read_csv("Data/NTL-LTER_Lake_Nutrients_PeterPaul_Processed.csv")
+#nutrient_data$sampledate <- ymd(nutrient_data$sampledate)
+#nutrient_data <- nutrient_data %>%
+  #filter(depth_id > 0) %>%
+  #select(lakename, sampledate:po4)
+
+nutrient_data <- read_csv("Data/Processed_KEY/NTL-LTER_Lake_Nutrients_PeterPaul_Processed.csv")
 nutrient_data$sampledate <- ymd(nutrient_data$sampledate)
 nutrient_data <- nutrient_data %>%
   filter(depth_id > 0) %>%

@@ -1,6 +1,6 @@
 ---
 title: "Assignment 1: Introduction"
-author: "Student Name"
+author: "Ellie Harrigan"
 output: pdf_document
 ---
 
@@ -22,22 +22,22 @@ Enter answers to the questions just below the >Answer: prompt.
 
 1. What are your previous experiences with data analytics, R, and Git? Include both formal and informal training.
 
-> Answer: 
+> Answer: I have no experience with R and Git. I have used Python before in ArcGIS pro, which is where most of my data analytics and geospatial data experience is.
 
 2. Are there any components of the course about which you feel confident?
 
-> Answer: 
+> Answer: Using R scripts to run in ArcGIS pro and transferring spatial data.
 
 3. Are there any components of the course about which you feel apprehensive?
 
-> Answer: 
+> Answer: The initial learning curves with R. 
 
 
 ## 2) GitHub
 
 Provide a link below to your forked course repository in GitHub. Make sure you have pulled all recent changes from the course repository and that you have updated your course README file, committed those changes, and pushed them to your GitHub account. 
 
-> Answer: 
+> Answer: https://github.com/ellieharrigan/EDE_Fall2024 
 
 ## 3) Knitting
 When you have completed this document, click the `knit` button.This should produce a PDF copy of your markdown document. Submit this PDF to Canvas 
