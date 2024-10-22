@@ -140,7 +140,6 @@ plot_2019 <- ggplot(subset(epa_data, Year == "2019"),
   labs(title = "Monthly Ozone Concentrations (2019)", x = "Month", y = expression(Concentration~(mu*g/m^3)))
 
 print(plot_2019)
-
 ```
 
 ---
