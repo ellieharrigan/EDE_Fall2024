@@ -24,7 +24,7 @@ This exercise accompanies the lessons in Environmental Data Analytics on Data Ex
 
 **TIP**: If your code extends past the page when knit, tidy your code by manually inserting line breaks.
 
-**TIP**: If your code fails to knit, check that no `install.packages()` or `View()` commands exist in your code. 
+**TIP**: If your code fails to knit, check that no `install.packages()` or `View()` commands exist in your code.
 
 ---
 
